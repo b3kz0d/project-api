@@ -1,0 +1,21 @@
+@ProjectAPI_HostAddress = http://localhost:5072
+
+GET {{ProjectAPI_HostAddress}}/api/projects/
+Accept: application/json
+
+###
+
+POST {{ProjectAPI_HostAddress}}/api/projects/
+Content-Type: application/json
+Accept: application/json
+
+{
+    "date": "2023-02-12",
+    "workingHours": "07:30-16:30",
+    "workAt": "JC",
+    "temperatureMorning": 18,
+    "temperatureAfternoon": 19,
+    "weather": "Testing"
+}
+
+###
