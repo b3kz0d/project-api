@@ -25,7 +25,7 @@ ProjectAPI is an ASP.NET Core API that leverages various technologies to provide
 
    ```bash
    git clone https://github.com/b3kz0d/project-api.git
-   cd project-api
+   cd project-api/ProjectAPI
 
 2. Build and run the application:
 
